@@ -30,7 +30,7 @@ Neste exercício, percebi que o JSON trazia o valor unitário em branco quando u
 (composição pai).
 
 Diante desta situação, implementei o pattern Composite, devido a árvore de composições (Composição > Composição > Insumo).
-Foi criada uma interface geral para a composição e extendida para as classes de composição e insumo.
+Foi criada uma interface geral para a composição para que as classes de composição e insumo a implementassem. 
 
 Foi necessário estudo para a implementação, já que foi a primeira vez que me deparei com esta necessidade.
 
